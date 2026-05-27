@@ -1,0 +1,16 @@
+{
+  "title": "Espinho Relocation",
+  "description": "Relocation planning: Orlando FL to Espinho, Portugal. Target move: January 2027. Both are PT citizens.",
+  "instructions": "## Espinho Relocation Project\n\nThis project tracks all planning and execution for relocating Wagner and Leo from Orlando, FL to Espinho, Portugal.\n\n### Key Parameters\n- **Target Date:** January 2027\n- **Origin:** Orlando, FL, USA\n- **Destination:** Espinho, Portugal (Aveiro district)\n- **Status:** Both are Portuguese citizens — no visa required\n- **Familiarity:** High — family in area, multiple prior visits\n\n### Workstreams\n1. Housing (rental/purchase via Idealista and other sources)\n2. Healthcare (SNS public system + private insurance options)\n3. Finance & Taxes (US-PT tax treaty, banking, NIF, cost of living)\n4. Legal & Documents (Cartão de Cidadão, concelho registration, driving)\n5. Shipping & Logistics (moving company, what to bring vs buy)\n6. Leo's Care (age-specific needs, support services in Espinho)\n7. Daily Life (transportation, utilities, community, language)\n8. Timeline & Milestones (countdown to Jan 2027)\n\n### Constraints\n- Budget: TBD (needs research)\n- Leo's health and comfort are top priority\n- All research must be verified against current 2026 PT regulations and costs\n",
+  "color": "#1D6B3F",
+  "git_url": "https://github.com/wgnr-ai/espinho-relocation.git",
+  "memory": "own",
+  "file_structure": {
+    "enabled": true,
+    "max_depth": 5,
+    "max_files": 30,
+    "max_folders": 30,
+    "max_lines": 300,
+    "gitignore": ".a0proj/\nvenv/\n**/__pycache__/\n**/node_modules/\n**/.git/\n"
+  }
+}
