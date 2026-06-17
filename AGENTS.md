@@ -90,3 +90,5 @@ When the user requests a durable behavior change, record it here or in the relev
   - docs/leos-care/ — Leo's specific care and support needs
   - docs/daily-life/ — Practical daily living in Espinho
   - docs/timeline/ — Milestone tracking and countdown
+- budget/ — Financial planning, cost projections, and currency tracking (USD↔EUR) for Espinho relocation
+- research/ — Research findings library: sources, citations, and methodology for the 8 relocation workstreams
