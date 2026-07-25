@@ -3,6 +3,13 @@
 - DOX is highly performant AGENTS.md hierarchy installed here
 - Agent must follow DOX instructions across any edits
 
+## wOS (wgnr.ai Operating System)
+
+wOS behavioral standards are defined at:
+`/a0/usr/plugins/wgnr_ai_os/prompts/wos-v0.2-spec.promptinclude.md`
+
+This plugin auto-loads globally into every agent session (15 Level 2 directives + 14 pre-delivery checks). Do not duplicate wOS content in project-level files. The plugin is the single source of truth. Previous location (`prompt_includes/`) was migrated to the plugin on ~2026-07-11.
+
 ## Core Contract
 
 - AGENTS.md files are binding work contracts for their subtrees
@@ -77,6 +84,14 @@ Default section order:
 ## User Preferences
 
 When the user requests a durable behavior change, record it here or in the relevant child AGENTS.md
+
+## Related Paths
+
+- **Obsidian Vault (shared collaboration):** `/a0/usr/obsidian/01-wgnr.ai Ops/Projects/Espinho Relocation/`
+  - Host path: `/Users/wgnr/agent-zero/wgnr-ai-ops/usr/obsidian/01-wgnr.ai Ops/Projects/Espinho Relocation/`
+  - Obsidian folder: `/01-wgnr.ai Ops/Projects/Espinho Relocation/`
+  - Use for: cross-project notes, strategy docs, meeting notes, research, and collaborative planning that benefits from Obsidian's graph/linking
+  - Vault root: `/a0/usr/obsidian/` (16 top-level folders including 86-Skills Library, 20-Knowledge, 30-Research, 26-Emails, 99-Templates)
 
 ## Child DOX Index
 
