@@ -92,6 +92,9 @@ When the user requests a durable behavior change, record it here or in the relev
   - Obsidian folder: `/01-wgnr.ai Ops/Projects/Espinho Relocation/`
   - Use for: cross-project notes, strategy docs, meeting notes, research, and collaborative planning that benefits from Obsidian's graph/linking
   - Vault root: `/a0/usr/obsidian/` (16 top-level folders including 86-Skills Library, 20-Knowledge, 30-Research, 26-Emails, 99-Templates)
+  - **Symlinked docs:** Project folders (`docs/`, `prds/`, `post-mortems/`, `dev-tickets/`, `web-dev-briefs/` where they exist) are symlinked into the Obsidian project folder via relative symlinks. Edits in Obsidian flow through to project files and vice versa. New files appear automatically.
+  - **Sync script:** `/a0/usr/scripts/sync-obsidian-symlinks.py` — re-run if new project folders need symlinking.
+  - **Obsidian exclusions:** `.file_guard_backups/`, `_templates/`, `_archived/`, `.examples/`, `_bmad-output/` are excluded from Obsidian's index via Settings → Files and links → Excluded files.
 
 ## Child DOX Index
 
