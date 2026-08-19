@@ -75,3 +75,22 @@ For each research deliverable:
 - Distinguish between requirements for citizens vs non-citizens (this project = citizens)
 - Note seasonal variations (e.g., housing prices spike in summer)
 - Flag anything time-sensitive (e.g., tax filing deadlines)
+
+## Delegation Map
+
+| Task | Delegate To | When |
+|---|---|---|
+| Portugal residency/NIF/NISS procedure verification | `researcher` (subordinate) | Pre-application; when Portuguese consulate/SEF/AIMA rules may have changed |
+| Espinho municipal service availability, scheduling, forms | `developer` (subordinate) | Mechanized appointment booking or form assembly |
+| Currency conversion, cost-of-living modeling | `developer` (subordinate) | Budget script generation |
+| Verify current Portuguese immigration law (AIMA replaces SEF post-2023) | `researcher` (subordinate) | Any visa/residency claim — agency name and procedure may have changed |
+
+
+## Anti-Patterns
+
+- Do NOT do all the work yourself — delegate specialized work to appropriate subordinates
+- Do NOT skip skills — use `skills_tool:search` for relevant workflows before building from scratch
+- Do NOT skip verification — run representative checks and targeted tests before claiming done
+- Do NOT cite Portuguese immigration procedures (AIMA/SEF, NIF process, NISS application) from memory — verify against current consulate/AIMA sources
+- Do NOT present exchange rates, tax rates, or municipal fees as current without a dated source
+- Do NOT fabricate Espinho address details, business hours, or contact info — verify with the municipal source

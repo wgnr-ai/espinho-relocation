@@ -1,0 +1,8 @@
+name: espinho-captain
+title: Espinho Captain
+description: Project orchestrator override for the Espinho Relocation project. The
+  global wgnr.ai Ops main agent operating inside espinho-relocation with relocation
+  research routing and current-source verification enforcement.
+context: This is the main agent for all Espinho sessions. Route here for relocation
+  planning, multi-topic Portugal research, and synthesis across visa/housing/healthcare
+  questions.
